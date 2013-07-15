@@ -1,0 +1,96 @@
+[
+  {
+    "id": "login/landing",
+    "description": "",
+    "name": "Login/Landing",
+    "keyword": "Feature",
+    "line": 1,
+    "elements": [
+      {
+        "id": "login/landing;get-user-by-email",
+        "description": "",
+        "name": "Get User By Email",
+        "keyword": "Scenario",
+        "line": 3,
+        "steps": [
+          {
+            "result": {
+              "duration": 116709000,
+              "status": "passed"
+            },
+            "name": "Application Users",
+            "keyword": "Given ",
+            "line": 4,
+            "match": {
+              "location": "UsersStepDefs.Application_Users(UsersStepDefs$ApplicationUser\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "email",
+                  "name"
+                ],
+                "line": 5
+              },
+              {
+                "cells": [
+                  "mike@tas.com",
+                  "Mike"
+                ],
+                "line": 6
+              }
+            ]
+          },
+          {
+            "result": {
+              "duration": 755000,
+              "status": "passed"
+            },
+            "name": "user request for user by email \"mike@tas.com\"",
+            "keyword": "When ",
+            "line": 7,
+            "match": {
+              "arguments": [
+                {
+                  "val": "mike@tas.com",
+                  "offset": 32
+                }
+              ],
+              "location": "UsersStepDefs.user_request_for_user_by_email(String)"
+            }
+          },
+          {
+            "result": {
+              "duration": 347000,
+              "status": "passed"
+            },
+            "name": "The user details should return",
+            "keyword": "Then ",
+            "line": 8,
+            "match": {
+              "location": "UsersStepDefs.The_user_details_should_return(UsersStepDefs$ApplicationUser\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "email",
+                  "name"
+                ],
+                "line": 9
+              },
+              {
+                "cells": [
+                  "mike@tas.com",
+                  "Mike"
+                ],
+                "line": 10
+              }
+            ]
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "uri": "cucumber/user.feature"
+  }
+]
