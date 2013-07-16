@@ -39,7 +39,7 @@ formatter.match({
   "location": "UsersStepDefs.Application_Users(UsersStepDefs$ApplicationUser\u003e)"
 });
 formatter.result({
-  "duration": 116709000,
+  "duration": 136796000,
   "status": "passed"
 });
 formatter.step({
@@ -57,7 +57,7 @@ formatter.match({
   "location": "UsersStepDefs.user_request_for_user_by_email(String)"
 });
 formatter.result({
-  "duration": 755000,
+  "duration": 742000,
   "status": "passed"
 });
 formatter.step({
@@ -85,7 +85,7 @@ formatter.match({
   "location": "UsersStepDefs.The_user_details_should_return(UsersStepDefs$ApplicationUser\u003e)"
 });
 formatter.result({
-  "duration": 347000,
+  "duration": 334000,
   "status": "passed"
 });
 });

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="0.001" errors="0" skipped="0" tests="4" name="com.yash.talentacquisition.cuke.RunCukesTest">
+<testsuite failures="0" time="0.784" errors="0" skipped="0" tests="4" name="com.yash.talentacquisition.cuke.RunCukesTest">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries"/>
@@ -67,5 +67,5 @@
   <testcase time="0" classname="Scenario: Get User By Email" name="Given Application Users"/>
   <testcase time="0" classname="Scenario: Get User By Email" name="When user request for user by email \&quot;mike@tas.com\&quot;"/>
   <testcase time="0" classname="Scenario: Get User By Email" name="Then The user details should return"/>
-  <testcase time="0.001" classname="Scenario: Get User By Email" name="Scenario: Get User By Email"/>
+  <testcase time="0" classname="Scenario: Get User By Email" name="Scenario: Get User By Email"/>
 </testsuite>

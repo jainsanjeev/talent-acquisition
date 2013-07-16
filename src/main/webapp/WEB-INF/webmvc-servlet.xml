@@ -51,7 +51,7 @@
 			<bean class="com.yash.talentacquisition.controller.util.UserRequestContextHandlerInterceptor" />
 		</property> 
 	</bean>
- 	<bean name="hiringUserDetailsService"
-		class="com.talentacquisition.security.HiringUserDetailsService" />
-	<bean name="hiringPasswordEncoder" class="com.yash.talentacquisition.security.HiringPasswordEncoder" />
+ 	<bean name="applicationUserDetailsService"
+		class="com.yash.talentacquisition.security.ApplicationUserDetailsService" />
+	<bean name="userPasswordEncoder" class="com.yash.talentacquisition.security.UserPasswordEncoder" />
 </beans>
